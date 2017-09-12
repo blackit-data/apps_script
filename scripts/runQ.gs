@@ -1,5 +1,8 @@
 function runQ(sql,projectId,output_sheet,add_stats,legacy_sql) {
  
+ // Check this article for explanation:
+ // https://blackitdata.wordpress.com/2017/05/18/run-a-query-in-bigquery-from-gsheets/
+ 
   var d0 = new Date();
  /* 
   // ++++++++++
